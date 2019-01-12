@@ -3,7 +3,7 @@
 /**
         * Sample Jenkinsfile for Jenkins2 Pipeline
         * from https://github.com/hotwilson/jenkins2/edit/master/Jenkinsfile
-        * by wilsonmar@gmail.com 
+        * by deepakdogra98@gmail.com 
  */
  
 import hudson.model.*
