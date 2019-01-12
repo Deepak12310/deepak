@@ -25,7 +25,7 @@ stage '\u2777 Stage 2'
 } // node
 } // try end
 catch (exc) {
-/*
+/
  err = caughtError
  currentBuild.result = "FAILURE"
  String recipient = 'infra@lists.jenkins-ci.org'
@@ -34,7 +34,7 @@ catch (exc) {
            to: recipient,
       replyTo: recipient,
  from: 'noreply@ci.jenkins.io'
-*/
+/
 } finally {
   
  (currentBuild.result != "ABORTED") && node("master") {
